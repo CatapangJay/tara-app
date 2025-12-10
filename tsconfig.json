@@ -3,9 +3,16 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./src/*", "./*"],
+      "@components/*": ["./src/components/*", "./components/*"],
+      "@screens/*": ["./src/screens/*", "./screens/*"],
+      "@navigation/*": ["./src/navigation/*", "./navigation/*"],
+      "@services/*": ["./src/services/*", "./services/*"],
+      "@hooks/*": ["./src/hooks/*", "./hooks/*"],
+      "@context/*": ["./src/context/*", "./context/*"],
+      "@utils/*": ["./src/utils/*", "./utils/*"],
+      "@types/*": ["./src/types/*", "./types/*"],
+      "@constants/*": ["./src/constants/*", "./constants/*"]
     }
   },
   "include": [
